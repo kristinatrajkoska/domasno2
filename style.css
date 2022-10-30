@@ -1,0 +1,39 @@
+body {
+    background-color: plum;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Bon_App%C3%A9tit_logo.svg);
+    background-position: top right; 
+    background-size: small;
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    color: purple;
+    text-shadow: 4px 4px 6px grey;
+    font-family:'Times New Roman', Times, serif
+
+}
+fieldset{
+
+    background-color: silver;
+    box-shadow: 25px 25px 50px grey;   
+    
+}
+hr{
+    border-style:dotted
+}
+.button{
+    border-width: 1px;
+    border-color:darkgray;
+    background-color: blueviolet;
+    padding: 15px 32px;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+    
+}
+.button:hover {
+    color:black;
+    background-color:rgb(209, 202, 214);
+  }
+input:focus {
+    background-color: grey; }
